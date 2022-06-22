@@ -1,0 +1,27 @@
+Possible Results that Fulfill the Brief Requirements:
+    D̶i̶g̶i̶a̶l̶i̶z̶e̶d̶ B̶o̶a̶r̶d̶ G̶a̶m̶e̶:̶
+        C̶h̶e̶s̶s̶
+        H̶n̶e̶f̶a̶t̶a̶f̶l̶
+        M̶a̶n̶c̶a̶l̶a̶
+        C̶h̶e̶c̶k̶e̶r̶s̶
+        S̶h̶o̶g̶i̶
+    D̶i̶g̶i̶a̶l̶i̶z̶e̶d̶ C̶a̶r̶d̶ G̶a̶m̶e̶:̶
+        S̶o̶l̶i̶t̶a̶r̶e̶
+        P̶r̶y̶a̶m̶i̶d̶s̶
+        B̶l̶a̶c̶k̶ J̶a̶c̶k̶
+    Misc:
+        Ball Bounce game
+
+This video game must:
+    Run on a Windows system
+    Be silent
+    Stimulate the users brains
+    Be playable by anyone
+
+I will make a Ball Bounce prediction game.
+
+The program will consist of a window that has balls bouncing around
+the screen with the user predicting the location of the red ball 
+after 5 seconds with every correct prediction (with a bit of leway)
+will increase the number of balls and every incorrect prediction will
+decrease the number of balls.
