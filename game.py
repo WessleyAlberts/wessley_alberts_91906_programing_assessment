@@ -1,9 +1,19 @@
 from random import randint
 from time import time
 from tkinter import *
+from easygui import msgbox
 
-def func():
-    print("testing function")
+def rules():
+    """Opens an EasyGui message box with the rules"""
+    msgbox("""Objective:
+To click on the ball as many times as possible.
+
+Rules:
+You have 5 seconds to click the Big Blue Ball before you lose.
+If you click the ball, the 5 seconds reset and a Smaller Red Ball appears.
+           """,
+           "Rules")
+
 
 def game():
     class Ball():
@@ -158,7 +168,7 @@ if __name__=="__main__":
     #Creates the buttons that give access to the rules and master modes
     game_btn=Button(central_frame, text="Play Game", image=pixel, font=("TkDefaultFont", 24), width=250, compound="c", command=game)
     game_btn.grid(row=2, column=1, pady=10)
-    rules_btn=Button(central_frame, text="Rules", image=pixel, font=("TkDefaultFont", 24), width=250, compound="c", command=func)
+    rules_btn=Button(central_frame, text="Rules", image=pixel, font=("TkDefaultFont", 24), width=250, compound="c", command=rules)
     rules_btn.grid(row=3, column=1, pady=10)
     
     master.mainloop()
