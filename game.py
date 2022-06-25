@@ -48,20 +48,25 @@ def game():
                 x=item.get_x()
                 y=item.get_y()
                 size=item.get_size()
+                
                 if self.x<x<self.x+self.size or x<self.x<x+size:
                     if self.y<y<self.y+self.size or y<self.y<y+size:
                         self.vx=self.vx*-1
                         self.vy=self.vy*-1
+                        
             #Checks if the ball is coliding with the wall 
             if self.y+self.size>=screen_height-canvas_height*2:
                 self.y=screen_height-canvas_height*2-self.size
                 self.vy=self.vy*-1
+                
             if self.y<=0:
                 self.y=0
                 self.vy=self.vy*-1
+                
             if self.x+self.size>=screen_width-canvas_width*2:
                 self.x=screen_width-canvas_width*2-self.size
                 self.vx=self.vx*-1
+                
             if self.x<=0:
                 self.x=0
                 self.vx=self.vx*-1
@@ -87,11 +92,12 @@ def game():
                 addball()
         
     
-    game=Toplevel()
     #Sets the balls storage
     balls=[]
+    
     #Sets the screen dimensions
     global screen_width, screen_height, canvas_width, canvas_height
+    game=Toplevel()
     screen_width = game.winfo_screenwidth()
     screen_height = game.winfo_screenheight()
     canvas_width = int(round(screen_width/100))
@@ -107,7 +113,6 @@ def game():
     makeball(randint(0,screen_width-canvas_width*2),randint(0,screen_height-canvas_height*2),100,0.2,0.2,"blue")
     
     playing=True
-    
     while playing==True:
         global t_end
         t_end = time() + 5
@@ -123,7 +128,6 @@ def game():
 
 
 if __name__=="__main__":
-
     """Creates the layout of the Main Menu"""
     #Sets the main menu window
     master = Tk()
