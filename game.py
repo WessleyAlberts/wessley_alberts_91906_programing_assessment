@@ -11,6 +11,11 @@ To click on the ball as many times as possible.
 Rules:
 You have 5 seconds to click the Big Blue Ball before you lose.
 If you click the ball, the 5 seconds reset and a Smaller Red Ball appears.
+
+Note:
+After you lose, you must 
+It is recomended that you play the game in maximized view
+(the square at the top next to the close button)
            """,
            "Rules")
 
