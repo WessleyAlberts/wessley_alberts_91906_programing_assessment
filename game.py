@@ -144,9 +144,12 @@ def game():
 
 if __name__=="__main__":
     """Creates the layout of the Main Menu"""
+    #Sets background colour to a variable
+    bg_colour="#a8a8a8"    
+    
     #Sets the main menu window
     master = Tk()
-    master.configure( bg=("#a8a8a8"))
+    master.configure( bg=(bg_colour))
     master.resizable(False,False)
     master.title("Main Menu")
     master.geometry("400x500")
@@ -155,19 +158,19 @@ if __name__=="__main__":
     pixel = PhotoImage(width=1, height=1)
         
     #Creates 3 Frames to help keep everything centered in the window
-    left_frame=Frame(master, bg=("#a8a8a8"), width=75)
+    left_frame=Frame(master, bg=(bg_colour), width=75)
     left_frame.grid(column=0)
-    right_frame=Frame(master, bg=("#a8a8a8"), width=75)
+    right_frame=Frame(master, bg=(bg_colour), width=75)
     right_frame.grid(column=2)
-    central_frame=Frame(master, bg=("#a8a8a8"), width=250)
+    central_frame=Frame(master, bg=(bg_colour), width=250)
     central_frame.grid(column=1)
 
     #Creates the game title
-    game_title=Label(central_frame, bg=("#a8a8a8"), text="Balls", font=("TkDefaultFont", 48))
+    game_title=Label(central_frame, bg=(bg_colour), text="Balls", font=("TkDefaultFont", 48))
     game_title.grid(row=0, column=1, pady=25)
 
     #Creates space inbetween the title and the buttons
-    white_space=Label(central_frame, bg=("#a8a8a8"), image=pixel, height=100)
+    white_space=Label(central_frame, bg=(bg_colour), image=pixel, height=100)
     white_space.grid(row=1,column=1)
 
     #Creates the buttons that give access to the rules and master modes
