@@ -2,7 +2,7 @@ Possible Results that Fulfill the Brief Requirements:
     D̶i̶g̶i̶a̶l̶i̶z̶e̶d̶ B̶o̶a̶r̶d̶ G̶a̶m̶e̶:̶
         C̶h̶e̶s̶s̶
         H̶n̶e̶f̶a̶t̶a̶f̶l̶
-        M̶a̶n̶c̶a̶l̶a̶
+        M̶a̶n̶c̶a̶l̶a̶?
         C̶h̶e̶c̶k̶e̶r̶s̶
         S̶h̶o̶g̶i̶
     D̶i̶g̶i̶a̶l̶i̶z̶e̶d̶ C̶a̶r̶d̶ G̶a̶m̶e̶:̶
@@ -17,6 +17,8 @@ This video game must:
     Be silent
     Stimulate the users brains
     Be playable by anyone
+
+I̶ w̶i̶l̶l̶ m̶a̶k̶e̶ a̶ M̶a̶n̶c̶a̶l̶a̶ g̶a̶m̶e̶
 
 I will make a Ball Bounce prediction game.
 
